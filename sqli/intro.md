@@ -14,4 +14,4 @@ SQL Injection occurs when user input is improperly handled and directly included
 
 ## 🔹 Example Vulnerable Query
 ```sql
-
+SELECT * FROM users WHERE username = '$username';
